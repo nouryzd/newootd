@@ -1,0 +1,32 @@
+name: ootd_app
+description: OOTD Recommendation App
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.9.1
+  cloud_firestore: ^4.8.3
+  firebase_storage: ^11.6.1
+  share_plus: ^7.0.1
+  image_picker: ^0.8.7+3
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/outfit1.jpg
+    - assets/outfit2.jpg
+    - assets/outfit3.jpg
+    - assets/outfit4.jpg
